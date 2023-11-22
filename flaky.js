@@ -1,5 +1,6 @@
 const axios = require('axios');
 const HTMLParser = require('node-html-parser');
+const slackService = require('./slack-service');
 
 class Flaky {
 

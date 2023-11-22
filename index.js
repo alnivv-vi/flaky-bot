@@ -1,4 +1,5 @@
 const flakyService = require('./flaky');
+const slackService = require('./slack-service');
 const localTunnel = require('localtunnel');
 const {App} = require('@slack/bolt');
 require('dotenv').config();
